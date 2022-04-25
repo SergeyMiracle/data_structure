@@ -21,7 +21,4 @@ function rotate($array, $d, $n)
     return array_merge($array, $temp);
 }
 
-
-echo '<pre>';
 var_dump(rotate($array, 2, 7));
-echo '</pre>';
